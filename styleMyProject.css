@@ -1,0 +1,101 @@
+.container-fluid {
+    background-image: linear-gradient(to top, rgb(255 255 255), rgb(146, 191, 233));
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card {
+
+    border-color: #fff;
+    text-align: left;
+    overflow-x: hidden;
+}
+
+.body_container {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:520px
+}
+
+drug-container {
+    max-width: fit-content;
+    overflow: hidden;
+}
+.container {
+    text-align: center;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 75vh;
+    overflow-x: hidden;
+}
+
+.typewriter p {
+    position: relative;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: 1px;
+    animation: typewriter 3s steps(40) forwards;
+}
+
+.typewriter p::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: blink 0.7s infinite alternate;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    to {
+        opacity: 0;
+    }
+}
+
+.login {
+    margin-top: 5px;
+}
+
+.login input, .login button {
+    margin-bottom: 5px;
+}
+
+.containerCA{
+    align-items:center;
+    text-align: center;
+    height: 75vh;
+    padding-top: 5%;
+}
+
+footer {
+
+    text-align: center;
+
+  }
+
+drug-container {
+    overflow-y: scroll;
+    width: min-content;
+}
+
+.navbar-text,
+.navbar-brand,
+.nav-link {
+    color: rgb(2, 2, 155);
+}
